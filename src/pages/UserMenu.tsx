@@ -397,10 +397,7 @@ export default function UserMenu() {
           <div>
             <h2 className="text-xl font-bold mb-4 text-gray-800 flex items-center">
               {DAYS_OF_WEEK[currentDay]}
-              <span className="ml-2 inline-block px-3 py-1 text-xs font-semibold text-white bg-green-500 rounded-full">
-                Hoje
-              </span>
-            </h2>
+     
             {renderDayContent(currentDay)}
           </div>
         ) : (
